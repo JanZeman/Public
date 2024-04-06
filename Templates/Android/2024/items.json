@@ -89,5 +89,19 @@
     "price": "3.49",
     "currency": "EUR",
     "last_sold": "2024-03-16T10:55:17Z"
+  },
+  {
+    "name": "Cheesy Potato",
+    "id": 14,
+    "price": "2.49",
+    "currency": "EUR",
+    "last_sold": "2022-08-12T10:00:00Z"
+  },
+  {
+    "name": "Spicy Potato",
+    "id": 15,
+    "price": "2.99",
+    "currency": "EUR",
+    "last_sold": "2022-09-15T15:30:00Z"
   }
 ]
