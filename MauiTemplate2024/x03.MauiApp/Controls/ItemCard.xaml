@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Grid
+    x:Class="MauiTemplate2024.App.Controls.ItemCard"
+    x:DataType="model:Potato"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:model="clr-namespace:MauiTemplate2024.Core.Logic;assembly=MauiTemplate2024.Core"
+    xmlns:viewmodel="using:MauiTemplate2024.App.ViewModel"
+    Padding="5" HorizontalOptions="Fill"
+    MaximumHeightRequest="100">
+
+    <SwipeView Threshold="200">
+        <SwipeView.LeftItems>
+            <SwipeItems Mode="Execute">
+                <SwipeItem Text="   Make favorite" BackgroundColor="Green"
+                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:HomeViewModel}}, Path=AcceptCommand}"
+                           CommandParameter="{Binding .}" />
+            </SwipeItems>
+        </SwipeView.LeftItems>
+        <SwipeView.RightItems>
+            <SwipeItems Mode="Execute">
+                <SwipeItem Text="   Remove favorite" BackgroundColor="Red"
+                           Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:HomeViewModel}}, Path=RejectCommand}"
+                           CommandParameter="{Binding .}" />
+            </SwipeItems>
+        </SwipeView.RightItems>
+        <Frame Style="{StaticResource CardView}" Background="{AppThemeBinding Light={StaticResource CardBackground}, Dark={StaticResource CardBackgroundDark}}">
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer 
+                    Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:HomeViewModel}}, Path=NavigateToDetailPageCommand}"
+                    CommandParameter="{Binding .}"/>
+            </Frame.GestureRecognizers>
+            <Grid Padding="0" ColumnDefinitions="80,*">
+                <Image Aspect="AspectFill" WidthRequest="64" HeightRequest="64" Source="{Binding ImageUrl}">
+                    <Image.Clip>
+                        <EllipseGeometry Center="32,32" RadiusX="32" RadiusY="32"/>
+                    </Image.Clip>
+                </Image>
+                <VerticalStackLayout VerticalOptions="Center" Grid.Column="1" Padding="16,3,3,3">
+                    <Label Style="{StaticResource MediumLabel}" Text="{Binding Name}" />
+                    <Label Style="{StaticResource SmallLabel}" Text="{Binding PriceDisplay }" />
+                    <Label Style="{StaticResource SmallLabel}" Text="{Binding LastSoldDisplay }" />
+                </VerticalStackLayout>
+            </Grid>
+        </Frame>
+    </SwipeView>
+</Grid>

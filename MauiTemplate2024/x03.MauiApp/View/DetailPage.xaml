@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<view:MauiPage 
+    x:Class="MauiTemplate2024.App.View.DetailPage"
+    x:DataType="viewmodel:DetailViewModel"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:view="clr-namespace:MauiTemplate2024.App.View"
+    xmlns:viewmodel="clr-namespace:MauiTemplate2024.App.ViewModel"
+    Title="{Binding PageName}">
+    <ScrollView Margin="16">
+        <VerticalStackLayout Spacing="16" Padding="16">
+
+            <Image Source="{Binding ImageUrl}"
+                   Aspect="AspectFill"
+                   HeightRequest="256"
+                   WidthRequest="256"
+                   HorizontalOptions="Center">
+                <Image.Clip>
+                    <EllipseGeometry Center="128,128" RadiusX="128" RadiusY="128"/>
+                </Image.Clip>
+            </Image>
+
+            <Label Text="{Binding Name}"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="{Binding LastSold}"
+                   FontSize="Medium"
+                   HorizontalOptions="Center"/>
+
+            <Label Text="{Binding IsFavorite}"
+                   FontSize="Medium"
+                   HorizontalOptions="Center"/>
+
+            <Button Text="Toggle favorite"
+                    Command="{Binding ToggleFavoriteCommand}"
+                    HorizontalOptions="Center"/>
+
+            <Label Text="{Binding Description}"
+                   FontSize="Small"
+                   HorizontalOptions="Center"/>
+
+            <!-- Additional details can go here -->
+        </VerticalStackLayout>
+    </ScrollView>
+</view:MauiPage>

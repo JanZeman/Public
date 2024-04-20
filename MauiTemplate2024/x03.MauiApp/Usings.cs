@@ -1,0 +1,17 @@
+﻿global using CommunityToolkit.Maui;
+global using CommunityToolkit.Mvvm.ComponentModel;
+global using CommunityToolkit.Mvvm.Input;
+global using JanZeman.System.Collections.ObjectModel;
+global using JanZeman.System.Diagnostics;
+global using Microsoft.Extensions.Logging;
+global using MauiTemplate2024.Core.Extensions;
+global using MauiTemplate2024.App.Interfaces;
+global using MauiTemplate2024.App.View;
+global using MauiTemplate2024.App.ViewModel;
+global using MauiTemplate2024.Core.Exceptions;
+global using MauiTemplate2024.Core.LocalSettings;
+global using MauiTemplate2024.Core.Logic;
+global using MauiTemplate2024.Core.Services.Logic;
+global using MauiTemplate2024.Core.Services.Storage;
+global using MauiTemplate2024.SqLiteStorage;
+global using System.Windows.Input;

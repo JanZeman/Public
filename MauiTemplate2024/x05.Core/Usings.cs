@@ -1,0 +1,11 @@
+global using JanZeman.System.Collections;
+global using JanZeman.System.Diagnostics;
+global using JanZeman.System.Collections.ObjectModel;
+global using Microsoft.Maui.Controls;
+global using Microsoft.Maui.Graphics;
+global using MauiTemplate2024.Core.Exceptions;
+global using MauiTemplate2024.Core.Extensions;
+global using MauiTemplate2024.Core.LocalSettings;
+global using MauiTemplate2024.Core.Logic;
+global using MauiTemplate2024.Core.Services.Storage;
+global using System.Collections.ObjectModel;

@@ -6,7 +6,7 @@
     "price": "2.99",
     "currency": "EUR",
     "last_sold": "2022-09-15T15:30:00Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/RedEmmalie.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/RedEmmalie.jpg"
   },
   {
     "id": 2,
@@ -15,7 +15,7 @@
     "price": "2.49",
     "currency": "EUR",
     "last_sold": "2024-01-30T02:24:04Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/YukonGold.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/YukonGold.jpg"
   },
   {
     "id": 3,
@@ -24,7 +24,7 @@
     "price": "1.29",
     "currency": "EUR",
     "last_sold": "2024-03-17T03:45:47Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/LaRatte.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/LaRatte.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "price": "3.49",
     "currency": "EUR",
     "last_sold": "2024-03-16T10:55:17Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/PinkGypsy.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/PinkGypsy.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "price": "4.49",
     "currency": "EUR",
     "last_sold": "2024-04-11T14:45:28Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/KingEdward.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/KingEdward.jpg"
   },
   {
     "id": 6,
@@ -51,7 +51,7 @@
     "price": "2.29",
     "currency": "EUR",
     "last_sold": "2024-08-05T13:39:11Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/Vitelotte.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/Vitelotte.jpg"
   },
   {
     "id": 7,
@@ -60,7 +60,7 @@
     "price": "3.29",
     "currency": "EUR",
     "last_sold": "2022-08-12T10:00:00Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/MarisPiper.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/MarisPiper.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "price": "5.49",
     "currency": "EUR",
     "last_sold": "2024-09-11T23:59:58Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/AdirondackBlue.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/AdirondackBlue.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "price": "6.29",
     "currency": "EUR",
     "last_sold": "2024-06-20T23:13:28Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/RedPontiac.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/RedPontiac.jpg"
   },
   {
     "id": 10,
@@ -87,7 +87,7 @@
     "price": "4.29",
     "currency": "EUR",
     "last_sold": "2024-12-28T21:37:20Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/GermanButterball.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/GermanButterball.jpg"
   },
   {
     "id": 11,
@@ -96,7 +96,7 @@
     "price": "2.19",
     "currency": "EUR",
     "last_sold": "2024-03-23T12:38:26Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/Fingerling.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/Fingerling.jpg"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "price": "3.19",
     "currency": "EUR",
     "last_sold": "2024-07-30T09:13:34Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/PurpleMajesty.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/PurpleMajesty.jpg"
   },
   {
     "id": 13,
@@ -114,7 +114,7 @@
     "price": "4.19",
     "currency": "EUR",
     "last_sold": "2024-01-15T07:03:09Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/Desiree.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/Desiree.jpg"
   },
   {
     "id": 14,
@@ -123,7 +123,7 @@
     "price": "2.49",
     "currency": "EUR",
     "last_sold": "2022-08-12T10:00:00Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/PinkFirApple.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/PinkFirApple.jpg"
   },
   {
     "id": 15,
@@ -132,6 +132,6 @@
     "price": "6.49",
     "currency": "EUR",
     "last_sold": "2024-11-28T15:14:22Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/RussetBurbank.jpg"
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Backend/Potatoes/Images/RussetBurbank.jpg"
   }
 ]

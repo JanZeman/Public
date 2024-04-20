@@ -1,0 +1,9 @@
+global using AutoFixture;
+global using FluentAssertions;
+global using JanZeman.System.Diagnostics;
+global using JanZeman.Testing.AutoFixture;
+global using JanZeman.Testing.AutoFixture.NSubstitute;
+global using MauiTemplate2024.Core.Logic;
+global using MauiTemplate2024.SqLiteStorage.Data;
+global using MauiTemplate2024.SqLiteStorage.Extensions;
+global using Xunit;
