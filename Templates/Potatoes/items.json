@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "name": "Russet Burbank",
-    "price": "6.49",
+    "name": "Red Emmalie",
+    "price": "2.99",
     "currency": "EUR",
-    "last_sold": "2024-11-28T15:14:22Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/RussetBurbank.jpg"
+    "last_sold": "2022-09-15T15:30:00Z",
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/RedEmmalie.jpg"
   },
   {
     "id": 2,
@@ -25,11 +25,11 @@
   },
   {
     "id": 4,
-    "name": "Maris Piper",
-    "price": "3.29",
+    "name": "Pink Gypsy",
+    "price": "3.49",
     "currency": "EUR",
-    "last_sold": "2022-08-12T10:00:00Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/MarisPiper.jpg"
+    "last_sold": "2024-03-16T10:55:17Z",
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/PinkGypsy.jpg"
   },
   {
     "id": 5,
@@ -49,6 +49,14 @@
   },
   {
     "id": 7,
+    "name": "Maris Piper",
+    "price": "3.29",
+    "currency": "EUR",
+    "last_sold": "2022-08-12T10:00:00Z",
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/MarisPiper.jpg"
+  },
+  {
+    "id": 8,
     "name": "Adirondack Blue",
     "price": "5.49",
     "currency": "EUR",
@@ -56,7 +64,7 @@
     "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/AdirondackBlue.jpg"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Red Pontiac",
     "price": "6.29",
     "currency": "EUR",
@@ -64,7 +72,7 @@
     "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/RedPontiac.jpg"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "German Butterball",
     "price": "4.29",
     "currency": "EUR",
@@ -72,7 +80,7 @@
     "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/GermanButterball.jpg"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Fingerling",
     "price": "2.19",
     "currency": "EUR",
@@ -80,7 +88,7 @@
     "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/Fingerling.jpg"
   },
   {
-    "id": 11,
+    "id": 12,
     "name": "Purple Majesty",
     "price": "3.19",
     "currency": "EUR",
@@ -88,20 +96,12 @@
     "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/PurpleMajesty.jpg"
   },
   {
-    "id": 12,
+    "id": 13,
     "name": "Desiree",
     "price": "4.19",
     "currency": "EUR",
     "last_sold": "2024-01-15T07:03:09Z",
     "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/Desiree.jpg"
-  },
-  {
-    "id": 13,
-    "name": "Pink Gypsy",
-    "price": "3.49",
-    "currency": "EUR",
-    "last_sold": "2024-03-16T10:55:17Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/PinkGypsy.jpg"
   },
   {
     "id": 14,
@@ -113,10 +113,10 @@
   },
   {
     "id": 15,
-    "name": "Red Emmalie",
-    "price": "2.99",
+    "name": "Russet Burbank",
+    "price": "6.49",
     "currency": "EUR",
-    "last_sold": "2022-09-15T15:30:00Z",
-    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/RedEmmalie.jpg"
+    "last_sold": "2024-11-28T15:14:22Z",
+    "image_url": "https://raw.githubusercontent.com/JanZeman/Public/main/Templates/Potatoes/Images/RussetBurbank.jpg"
   }
 ]
