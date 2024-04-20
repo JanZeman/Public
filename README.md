@@ -1,2 +1,4 @@
 # Public
-Just a dump repository for all files that need to be public
+Some public files and sample projecs
+
+# Maui Template 2024
