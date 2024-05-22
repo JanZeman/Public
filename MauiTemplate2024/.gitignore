@@ -1,6 +1,9 @@
 # Conflict the resolution temp files
 **/*.orig
 
+# Ignore all files and directories in the Rider .idea directory
+.idea/
+
 #       /\
 #      /..\
 #     /....\
